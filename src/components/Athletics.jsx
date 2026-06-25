@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { Trophy, Shield } from "lucide-react";
 
 export default function Athletics() {
-  const [activeTab, setActiveTab] = useState("basketball");
+  // CHANGED: "basketball" to "football" because basketball didn't exist in matrixData below
+  const [activeTab, setActiveTab] = useState("football");
 
   const matrixData = {
     football: {
@@ -64,13 +65,16 @@ export default function Athletics() {
                 REGISTRY // ATHLETIC LEDGER METRICS
               </span>
               <h4 className="text-3xl md:text-5xl font-bold text-[#f5f2eb] uppercase tracking-wide mb-3 transition-all duration-300" style={{ fontFamily: "var(--font-serif-display)" }}>
-                {current.title}
+                {/* CHANGED: Added ?. to current */}
+                {current?.title}
               </h4>
               <span className="text-xs italic text-[#dcd7ca]/60 tracking-widest block mb-10" style={{ fontFamily: "var(--font-serif-body)" }}>
-                {current.role}
+                {/* CHANGED: Added ?. to current */}
+                {current?.role}
               </span>
               <p className="text-base text-[#dcd7ca]/80 leading-relaxed font-light max-w-3xl" style={{ fontFamily: "var(--font-sans)" }}>
-                {current.summary}
+                {/* CHANGED: Added ?. to current */}
+                {current?.summary}
               </p>
             </div>
 
@@ -81,7 +85,8 @@ export default function Athletics() {
 
           {/* Metric Status Check boxes */}
           <div className="lg:col-span-4 flex flex-col gap-4">
-            {current.metrics.map((metric, index) => (
+            {/* CHANGED: Added ?. to current */}
+            {current?.metrics.map((metric, index) => (
               <div 
                 key={index} 
                 className="parchment-panel p-6 rounded-xl border border-[#f5f2eb]/10 flex items-center justify-between transition-all duration-300 hover:border-[#f5f2eb]/20 group"
