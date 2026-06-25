@@ -8,7 +8,7 @@ export default function Athletics() {
   const matrixData = {
     football: {
       title: "Messi Lover",
-      role: "Barcelona Paglu😛",
+      role: "Barcelona Paglu",
       summary: "Abhi nhi pta.",
       metrics: ["High-IQ Setup Play", "Clinical Vision", "Unbroken Transition Rhythm"]
     },
