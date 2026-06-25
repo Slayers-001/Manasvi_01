@@ -33,20 +33,20 @@ export default function Academics() {
     {
       icon: <Feather className="w-5 h-5 text-[#f5f2eb] stroke-[1.5]" />,
       index: "01",
-      title: "Marks",
-      desc: "idk what to write here, so i will just write this."
+      title: "Hobby",
+      desc: "Dancing is more than just a hobby for me—it's a way to express myself and have fun. Whenever I dance, I feel confident, energetic, and free. I love learning new moves, performing to my favorite songs, and improving my skills with every step. Whether I'm dancing for an audience or just for myself, it always brings me happiness. For me, dance is a perfect combination of creativity, music, and self-expression. When words aren't enough, I let my dance tell the story."
     },
     {
       icon: <Compass className="w-5 h-5 text-[#f5f2eb] stroke-[1.5]" />,
       index: "02",
-      title: "Friends",
-      desc: "idk what to write here, so i will just write this."
+      title: "Movies",
+      desc: "If one movie perfectly matches my vibe, it's Zindagi Na Milegi Dobara. It's not just a road trip movie—it's a reminder to stop overthinking, take chances, and actually live life. From epic adventures and unforgettable friendships to the stunning Spain backdrop, every scene feels like a bucket-list dream. The movie inspires me to step out of my comfort zone, chase experiences, and make memories that last forever."
     },
     {
       icon: <Book className="w-5 h-5 text-[#f5f2eb] stroke-[1.5]" />,
       index: "03",
-      title: "Fav Thing",
-      desc: "My Peace."
+      title: "Friends And Family",
+      desc: "My friends and family are literally my favorite people. They're the ones who hype me up, keep me sane, and make even the most random moments unforgettable. From inside jokes and chaotic conversations to endless support when I need it, they're always there for me. Life would be low-key boring without them. No matter what happens, they're my forever squad and my biggest flex."
     }
   ];
 
