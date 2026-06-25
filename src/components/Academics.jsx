@@ -46,7 +46,7 @@ export default function Academics() {
       icon: <Book className="w-5 h-5 text-[#f5f2eb] stroke-[1.5]" />,
       index: "03",
       title: "Fav Thing",
-      desc: "idk what to write here, so i will just write this."
+      desc: My Peace."
     }
   ];
 
